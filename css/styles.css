@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+
+    font-family: Montserrat;
+}
+body{
+    /*initialisation de la page*/
+    margin: 0 auto;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+header img{
+    width: 100px;
+}
+/*-------- hero - top-page -------*/
+section.top-page
+{
+/*arriere plan  */
+background: url('../images/hero-montagne2.jpg');
+height: 70vh;
+background-size: cover;
+color: aliceblue;
+padding-right:25px;
+padding-top:25px;
+padding-left: 50px;
+}
+
+/*-------------- menu de navigation */
+nav.header{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+nav a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+}
+/*------ titre du hero*/
+h1.big-title{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 800;
+    width: 40%;
+}
+
+/* ---------------    service*/
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.service-item{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: #723024;
+}
+
+.delivery-details{
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+/* meilleur ventes*/
+
+.section-title{
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+
+}
+.section-title::before{
+content: "";
+position: absolute;
+background-color:#723024 ;
+width: 50px;
+height: 7px;
+bottom: 0;
+}
+.meilleurs-ventes{
+    margin:70px;
+}
+
+.best-items{
+    min-height:250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.best-item-box{
+   
+    background-size: contain;
+    background-position:center;
+    position: relative;
+
+}
+
+.no-grid{
+    min-width: 250px;
+    height: 250px;
+    flex: 1;
+}
+.item1{
+    background-repeat: no-repeat ;
+    background-image: url(../images/products/vans-encore-women-og-black-white.jpg);
+
+}
+
+.item2{
+    background-repeat: no-repeat ;
+    background-image: url(../images/products/fixation1*1.jpg);
+
+}
+.item3{
+    background-repeat: no-repeat ;
+    background-image: url(../images/products/twinpig-ride-snowboards.jpg);
+
+}
+.item4{
+    background-repeat: no-repeat ;
+    background-image: url(../images/products/2021-lib-snowboards-t-rice-pro-pointy.jpg);
+
+}
+
+/*----------- details */
+
+.item-details{
+    position: absolute ;
+    bottom: 0;
+    background-color: #ffffffce;
+    width: 100%;
+    padding: 0 20px;
+    
+    
+}
+.item-name{
+ font-weight: bold;
+ line-height:0px ;
+ color: rgb(2, 2, 2);
+}
+.item-price{
+    font-weight: bolder;
+    color:#723024;
+    line-height:0px ;
+}
+
+/* presentation */
+/* .presentation{
+   
+   
+} */
+
+#presentation{
+width: 100%;
+
+}
+
+.presentation{
+    padding-left:75px;
+    padding-right:75px;
+}
+
+
+/* footer */
+.footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.copyrights {
+    padding-right: 20px;
+}
+
+.conditions {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+p#p-presentation{
+    margin: 25px;
+    font-size: 20px;
+}
+
+
+.container{
+    padding-top: 5vh;
+}
+
